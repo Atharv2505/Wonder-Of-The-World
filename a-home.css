@@ -1,0 +1,199 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://wallpapercrafter.com/desktop/164457-landscape-mountains-lake-snow-clouds-dark-filter-gray-overcast-calm-waters-gloomy.jpg);
+    background-size: 1536px 745px;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.199);
+    height: 60px;
+}
+
+.navlinks{
+    text-decoration: none;
+    padding: 12px 15px;
+    color: white;
+    background-color: rgba(104, 103, 103, 0.498);
+    border-radius: 8px;
+    position: relative;
+    top: -42.5px;
+    left: 62%;
+    margin-left: 25px;
+    display: inline;
+    transition: 0.30s;
+}
+
+.navlinks:hover{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    transition: 0.30s;
+}
+
+#active{
+    background-color: #fff;
+    color: rgb(0, 0, 0); 
+}
+
+i{
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+    position: relative;
+    top: 2px;
+    left: 35px;
+    display: inline;
+}
+
+#h-2{
+    display: inline;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    left: 36px;
+    bottom: 3px;
+    font-size: 35px;
+}
+
+.btn.btn-outline-secondary{
+    color: rgb(2, 0, 0);
+    background-color: white;
+    margin-left: -5px;
+    border: 1px solid white;
+    padding: 6px 10px;
+}
+
+.btn.btn-outline-secondary:hover{
+    color: white;
+    background-color:rgba(83, 77, 77, 0.639);
+    border: 1px solid white;
+}
+
+.input-group.mb-3{
+    width: 500px;
+    position: relative;
+    left: 26%;
+    bottom: 90px;
+}
+
+.form-control{
+    background: rgba(154, 7, 154, 0);
+    border: 2px solid white;
+}
+
+.form-control:active, .form-control:focus{
+    outline: none;
+}
+
+.hed-2{
+    color: rgb(197, 188, 188);
+    font-size: 90px;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.spn-h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(43, 41, 41, 0.708);
+}
+
+.reg{
+    padding: 30px 30px;
+    float: right;
+    margin-right: 200px;
+    border-radius: 10px;
+    background-color: rgba(187, 178, 178, 0.416);
+}
+
+.reg{
+    bottom: 170px;
+    position: relative;
+}
+
+.reg input{
+    margin-top: 25px;
+}
+
+#email{
+    padding: 5px 10px;
+    width: 400px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#pass{
+    padding: 5px 10px;
+    width: 400px;
+    outline: none;
+    border: none;
+    border-radius: 5px;  
+}
+
+#numb{
+    padding: 5px 10px;
+    width: 400px;
+    outline: none;
+    border: none;
+    border-radius: 5px;    
+}
+
+.hed-2-2{
+    color: rgb(72, 71, 71);
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #d4e0dc68;
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #b0b8b0a3;}
+
+  .btn.btn-success{
+    padding: 10px 20px;
+    justify-self: center;
+    position: relative;
+    left: 205%;
+}
